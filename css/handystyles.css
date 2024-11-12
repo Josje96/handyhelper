@@ -1,0 +1,72 @@
+/*stylesheet for handy helper project. filename: handystyles.css */
+
+/*CSS Reset */
+body, header, main, footer, img, h1, h2 {
+    margin: 0;
+    padding: 0; 
+    border: 0;
+
+}
+
+/* Style rules for header content */
+header {
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+    background-color: rgb(114, 113, 113);
+}
+
+header h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgb(133, 128, 128);
+    color: white;
+  }
+  body h2 {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(134, 134, 134);
+    color: white;
+    padding-top: 5%;
+  }
+  body p {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-size: 24px;
+    background-color: rgb(129, 127, 127);
+    color: white;
+    padding: 7%;
+    border: 10px solid #43388b; /* Combines border-width, style, and color */
+}
+
+  body {
+
+    justify-content: center;
+    background-color: rgb(124, 122, 122);
+    height: 100vh;
+    margin: 0;
+    
+}
+button {
+    font-family: "Roboto", sans-serif;
+    width: 300px;
+    height: 100px;
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 8px;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    border: none;
+}
